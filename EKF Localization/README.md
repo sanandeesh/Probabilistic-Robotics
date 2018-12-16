@@ -9,11 +9,12 @@ These instructions will get you a copy of the project up and running on your loc
 This software was developed on Matlab 2016, and requires the *Statistics and Machine Learning Toolbox*.
 
 ### Installing
+No additonal software is required.
 
 ## Running the tests
 
 Open Matlab. 
-Navigate to the directory containing both Matlab files. 
+Navigate to the directory root directory of this repo. 
 Run mainEKFLocalization.m.
 
 ### Example Output
