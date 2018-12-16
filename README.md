@@ -3,8 +3,8 @@ Bayesian filtering algorithms applied on robotic perceptual tasks based on selec
 These algorithms were implemented and evaluated with Matlab for educational purposes.  
 
 ## EKF Localization
-mainEKFLocalization.m
-EKFLocalization.m
+- mainEKFLocalization.m
+- EKFLocalization.m
 
 
 ## EKF SLAM
