@@ -1,2 +1,2 @@
 # Probabilistic-Robotics
-Bayesian filtering algorithms developed based on selected chapters from "Probabilistic Robotics by Thrun, Bergard, Fox 2005"
+Bayesian filtering algorithms applied on robotic perceptual tasks based on selected chapters from "Probabilistic Robotics by Thrun, Bergard, Fox 2005".
