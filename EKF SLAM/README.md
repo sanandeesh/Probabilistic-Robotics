@@ -1,4 +1,4 @@
-# Planar Robot Simultaneous Localization & Mapptin with the Extended Kalman Filter
+# Planar Robot Simultaneous Localization & Mapping with the Extended Kalman Filter
 
 ## Getting Started
 These two files demonstrate the application of the Extended Kalman Filter to SLAM of a planar robot.
