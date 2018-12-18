@@ -1,8 +1,12 @@
 # Planar Robot Localization with the Extended Kalman Filter
 
 ## Getting Started
-
-Download this repository to any directory on you machine. 
+These two files demonstrate the application of the Extended Kalman Filter to localization of a planar robot.
+Breifly, the planar robot state-space is (x,y,theta) in an environment with landmark features existing at (x,y) points. 
+It experiences random perturbations both in the motion it undergoes, and in the measurements it collects.
+Therefore, *optimal* estimation combines a priori known motion/measurement models and error parameters to minimize the expected squared error between the true state and estimate of it.
+For a rigorous description of this algorithm as well as aggregate simulation results, please read the document, *EKFLocalization.pdf*.
+Next, download this repository to any directory on you machine. 
 
 ### Prerequisites
 
