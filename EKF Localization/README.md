@@ -18,7 +18,7 @@ Navigate to the directory root directory of this repo.
 Run mainEKFLocalization.m.
 
 ### Example Output
-![Example Matlab Output](/Figures/EKFLocalizationSample.png)
+![](/Figures/EKFLocalizationSample.png)
 
 ## References
 Thrun S, Burgard W, Fox D. (2005). [*Probabilistic Robotics*](http://www.probabilistic-robotics.org/), Intelligent Robotics and Autonomous Agents. MIT Press.
