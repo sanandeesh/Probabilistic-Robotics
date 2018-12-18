@@ -32,7 +32,7 @@ The large white square depicts the motion of the planar robot as well as the ass
 The true and estimated positions of the landmarks are shown on the top left (i.e. *Mapping*).
 The covariance matrix of the SLAM posterior density is depicted on the botton left.
 These include elements for robot state as well as landmark coordiantes.
-
+![](./Figures/EKFSLAMSample.png)
 
 ## References
 Thrun S, Burgard W, Fox D. (2005). [*Probabilistic Robotics*](http://www.probabilistic-robotics.org/), Intelligent Robotics and Autonomous Agents. MIT Press.
