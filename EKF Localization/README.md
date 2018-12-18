@@ -2,22 +2,30 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download this repository to any directory on you machine. 
 
 ### Prerequisites
 
 This software was developed on Matlab 2016, and requires the *Statistics and Machine Learning Toolbox*.
 
 ### Installing
-No additonal software is required.
+No additonal installation procedures are required.
 
 ## Running the tests
 
 Open Matlab. 
-Navigate to the directory root directory of this repo. 
-Run mainEKFLocalization.m.
+Navigate the *Current Folder* pane to the root directory of this repository. 
+Run 'mainEKFLocalization.m'.
+This entry point function will initialize the robot and environment state parameters and will orchestrate the discrete time simulation.
+On each simulation iteration, the underlying 'EKFLocalization.m' function in invoked to produce the latest posterior density of state.
 
 ### Example Output
+Shown below is an example snapshot of the random dynamic simulation which unfolds.
+The left hand column describes the applied simulation parameters. 
+These include the applied motion commands, and the error parameters associated with motion commands and measurements.
+The large white square depicts the motion of the planar robot as well as the associated observer-estimate of state.
+The equations governing motion and measurement processes are shown on the top left.
+The Gaussian posterior density of the planar robot position (the third angle dimension is not shown) is depicted on the botton left.
 ![](./Figures/EKFLocalizationSample.png)
 
 ## References
